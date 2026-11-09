@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", "module": "CommonJS", "moduleResolution": "Node",
+    "outDir": "dist/api", "rootDir": "api", "strict": true,
+    "experimentalDecorators": true, "emitDecoratorMetadata": true,
+    "esModuleInterop": true, "skipLibCheck": true, "types": ["node"]
+  },
+  "include": ["api/**/*.ts"]
+}
